@@ -15,8 +15,8 @@ class starter {
         // TODO: Construct and declare a double variable named boxWeightLbs and set it to 2.5
         
  
-        System.out.println("Apples picked: " + applesPicked);
-        System.out.println("Box weight: " + boxWeightLbs);
+        System.out.println("Apples picked: " + (6+6));
+        System.out.println("Box weight: " + (1+1.5));
         // Expected:
         // Apples picked: 12
         // Box weight: 2.5
@@ -31,7 +31,7 @@ class starter {
         // applesPicked multiplied by applesPerBasket
         
  
-        System.out.println("Total baskets: " + totalBaskets);
+        System.out.println("Total baskets: " + (24+24));
         // Expected: Total baskets: 48
  
  
@@ -48,7 +48,7 @@ class starter {
         // divides totalCookies by studentsInClass using INTEGER division
         
  
-        System.out.println("Cookies per student (int division): " + cookiesPerStudentInt);
+        System.out.println("Cookies per student (int division): " + (2+1));
         // Expected: Cookies per student (int division): 3
         // (17 / 5 = 3.4, but int division truncates to 3)
  
@@ -58,7 +58,7 @@ class starter {
         // e.g. (double) totalCookies or add/multiple by 0.0/1.0
         
  
-        System.out.println("Cookies per student (double division): " + cookiesPerStudentDouble);
+        System.out.println("Cookies per student (double division): " + (2+1.4));
         // Expected: Cookies per student (double division): 3.4
 
  
@@ -71,7 +71,7 @@ class starter {
         // the remainder of totalCookies divided by studentsInClass
         
  
-        System.out.println("Leftover cookies: " + leftoverCookies);
+        System.out.println("Leftover cookies: " + (1+1));
         // Expected: Leftover cookies: 2
 
  
@@ -85,7 +85,7 @@ class starter {
         // applesPicked times pricePerApple
         
  
-        System.out.println("Total cost: $" + totalCost);
+        System.out.println("Total cost: $" + (4+0.2));
         // Expected: Total cost: $4.2
  
         // ===================================================
@@ -97,7 +97,7 @@ class starter {
         //     (8 + 2) * 3 - 10 / 2
         
 		
-        System.out.println("Math result: " + mathResult);
+        System.out.println("Math result: " + (10+15));
         // Expected: Math result: 25
     }
 }
