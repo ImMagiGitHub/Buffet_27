@@ -1,14 +1,24 @@
-/*
- *	Author:  
- *  Date: 
-*/
-
 import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Please send a number!");
+		int num1 = sc.nextInt();
+		System.out.println("Please send another number!");
+		int num2 = sc.nextInt();
+		boolean a = num1 == num2;
+		boolean b = num1 != num2;
+
+		if(a){
+		System.out.println("These numbers are the same!");
+	}
+		if(b){
+		System.out.println("These number are diffrent!");
+
+	}
+
 	}
 }
