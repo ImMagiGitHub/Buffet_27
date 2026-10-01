@@ -11,16 +11,38 @@ class starter {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Please enter your first number");
-		int num1 = sc.nextInt();
+		int a = sc.nextInt();
 		System.out.println("Please enter your second number");
-		int num2 = sc.nextInt();
+		int b = sc.nextInt();
 		System.out.println("Please enter your third number");
-		int num3 = sc.nextInt();
-
-		boolean a = num1 < num1;
-		boolean b = num2 < num1;
-		boolean c = num3 < num1;
+		int c = sc.nextInt();
 		
-		if(a)
+		if(a > b && a > c){
+			System.out.println("Your first number is the largest of the three!");
+			System.out.println("The number was " + a + ".");
+	}
+		else if(b > a && b > c){
+			System.out.println("Your second number is the largest of the three!");
+			System.out.println("The number was " + b + ".");
+	}
+		else if(c > a && c > b){
+			System.out.println("Your third number is the largest of the three!");
+			System.out.println("The number was " + c + ".");
+	}
+
+
+
+		if(a < b && a < c){
+			System.out.println("Your first number is the smallest of the three!");
+			System.out.println("The number was " + a + ".");
+	}
+		else if(b < a && b < c){
+			System.out.println("Your second number is the smallest of the three!");
+			System.out.println("The number was " + b + ".");
+	}
+		else if(c < a && c < b){
+			System.out.println("Your third number is the smallest of the three!");
+			System.out.println("The number was " + c + ".");
+	}
 	}
 }
